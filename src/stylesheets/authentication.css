@@ -1,0 +1,68 @@
+.form-control{
+    box-shadow:none;
+}
+.form-control:focus{
+    margin-top: 15px !important;
+    box-shadow:none !important;
+}
+input , textarea{
+    margin-top: 15px !important;
+}
+
+.register-form{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    z-index: 999 !important;
+}
+.register-parent{
+    height: 100vh;
+    background-color: aliceblue;
+}
+.register-parent .row{
+    height: 100vh;
+    align-items: center;
+    z-index: 999 !important;
+}
+.register-top{
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #003F5C;
+    z-index: 0 !important;
+}
+.z1{
+    z-index: 1 !important;
+}
+
+
+
+.login-form{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    z-index: 999 !important;
+}
+.login-parent{
+    height: 100vh;
+    background-color: aliceblue;
+}
+.login-parent .row{
+    height: 100vh;
+    align-items: center;
+    z-index: 999 !important;
+}
+.login-bottom{
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #003F5C;
+    z-index: 0 !important;
+}
+.z1{
+    z-index: 1 !important;
+}
