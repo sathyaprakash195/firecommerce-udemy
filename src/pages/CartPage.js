@@ -24,7 +24,7 @@ function CartPage() {
   useEffect(() => {
     let temp = 0;
     cartItems.forEach((cartItem) => {
-      temp = temp + cartItem.price;
+      temp = Number(temp) + Number(cartItem.price);
     });
     setTotalAmount(temp);
   }, [cartItems]);
